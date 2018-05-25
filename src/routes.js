@@ -9,6 +9,9 @@ import Scale from './scale'
 import Background from './background'
 import Rotate from './rotate'
 import Scroll from './scrollview'
+import Decay from './decay'
+import Parallel from './parallel'
+import Stagger from './stagger'
 
 const scenes = Actions.create(
   <Scene key="root" hideNavBar hideTabBar>
@@ -19,6 +22,9 @@ const scenes = Actions.create(
       <Scene key="background" component={Background} />
       <Scene key="rotate" component={Rotate} />
       <Scene key="scroll" component={Scroll} />
+      <Scene key="decay" component={Decay} />
+      <Scene key="parallel" component={Parallel} />
+      <Scene key="stagger" component={Stagger} />
   </Scene>
 )
 
