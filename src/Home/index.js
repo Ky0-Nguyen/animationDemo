@@ -18,6 +18,7 @@ export default class Home extends React.Component {
       {key: '8', title: 'stagger', action: this.handleStagger},
       {key: '9', title: 'Create Animated Component', action: this.handleCreateAnimatedComponent},
       {key: '10', title: 'Using Set Native Props', action: this.handleUsingSetNativeProps},
+      {key: '11', title: 'D3 Interpolate', action: this.handled3Interpolate}
     ]
   }
 

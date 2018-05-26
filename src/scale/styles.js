@@ -10,6 +10,7 @@ const styles  = StyleSheet.create({
  box: {
    width: width(30),
    height: width(30),
+   borderRadius: width(15),
    backgroundColor: 'red'
  }
 })
