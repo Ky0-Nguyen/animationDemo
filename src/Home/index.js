@@ -54,6 +54,9 @@ export default class Home extends React.Component {
   handleUsingSetNativeProps=()=>{
     Actions.usingSetNativeProps()
   }
+  handled3Interpolate =()=>{
+    Actions.d3Interpolate()
+  }
   render(){
     return (
       <Page data={this.data}/>
