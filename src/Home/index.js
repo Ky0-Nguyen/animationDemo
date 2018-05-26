@@ -16,6 +16,8 @@ export default class Home extends React.Component {
       {key: '6', title: 'decay', action: this.handleDecay},
       {key: '7', title: 'parallel', action: this.handleParallel},
       {key: '8', title: 'stagger', action: this.handleStagger},
+      {key: '9', title: 'Create Animated Component', action: this.handleCreateAnimatedComponent},
+      {key: '10', title: 'Using Set Native Props', action: this.handleUsingSetNativeProps},
     ]
   }
 
@@ -45,6 +47,12 @@ export default class Home extends React.Component {
   }
   handleStagger =() =>{
     Actions.stagger()
+  }
+  handleCreateAnimatedComponent =()=>{
+    Actions.createAnimatedComponent()
+  }
+  handleUsingSetNativeProps=()=>{
+    Actions.usingSetNativeProps()
   }
   render(){
     return (

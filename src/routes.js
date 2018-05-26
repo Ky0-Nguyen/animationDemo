@@ -12,6 +12,9 @@ import Scroll from './scrollview'
 import Decay from './decay'
 import Parallel from './parallel'
 import Stagger from './stagger'
+import CreateAnimatedComponent from './CreateAnimatedComponent'
+import UsingSetNativeProps from './UsingSetNativeProps'
+
 
 const scenes = Actions.create(
   <Scene key="root" hideNavBar hideTabBar>
@@ -25,6 +28,8 @@ const scenes = Actions.create(
       <Scene key="decay" component={Decay} />
       <Scene key="parallel" component={Parallel} />
       <Scene key="stagger" component={Stagger} />
+      <Scene key="createAnimatedComponent" component={CreateAnimatedComponent} />
+      <Scene key="usingSetNativeProps" component={UsingSetNativeProps} />
   </Scene>
 )
 
