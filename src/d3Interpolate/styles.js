@@ -4,12 +4,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: 'green'
+    justifyContent: 'center'
   },
   box: {
     width: width(30),
     height: width(30),
+    borderRadius: width(15),
     backgroundColor: 'red'
   }
 })

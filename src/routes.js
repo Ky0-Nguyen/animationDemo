@@ -30,7 +30,7 @@ const scenes = Actions.create(
     <Scene key="stagger" component={Stagger} />
     <Scene key="createAnimatedComponent" component={CreateAnimatedComponent} />
     <Scene key="usingSetNativeProps" component={UsingSetNativeProps} />
-    <Scene key="d3Interpolate" component={D3Interpolate} initial={true}/>
+    <Scene key="d3Interpolate" component={D3Interpolate} />
   </Scene>
 )
 
